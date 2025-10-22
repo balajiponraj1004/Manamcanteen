@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://manamcanteen.com/sitemap.xml
