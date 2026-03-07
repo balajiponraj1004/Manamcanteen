@@ -23,7 +23,7 @@ export class HomeComponent implements AfterViewInit, OnInit {
   slides = [
     {
       image: 'assets/new_icon/dine_in_new.svg',
-      alt: 'Modern Korean Restaurant Interior',
+      alt: 'Modern South Indian Restaurant Interior',
       title: 'Dine-In',
       bgColor:'#823A2F1A',
       description: 'Step into Manam Canteen, enjoy your favourite dishes in a cozy, family-friendly space that feels just like home. Come hungry, leave happy.'
