@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://manamcanteen.com
+
+# Sitemaps
+Sitemap: https://manamcanteen.com/sitemap.xml
