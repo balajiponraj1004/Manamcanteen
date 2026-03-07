@@ -97,17 +97,13 @@
 
     <!-- Dine-in Section -->
     <section id="dine">
-      <ngb-carousel
-      
-  class="dine-carousel">
-	>
+      <ngb-carousel class="dine-carousel">
   <ng-template ngbSlide *ngFor="let data of slides">
   <div class="section--dine" [ngStyle]="{'background-color': data.bgColor}">
         <div class="dine__grid">
-              <div >
-                     <img [src]="data.image" alt="{{data.alt}}" class="dine__image">
+              <div>
+                     <img [src]="data.image" [attr.alt]="data.alt" class="dine__image">
             </div>
-
                 <div class="dine__content">
                     <h3>{{data.title}}</h3>
                     <p class="description">{{data.description}}</p>
